@@ -94,7 +94,7 @@ function resizeImagesInFolder($folderPath, $newWidth, $newHeight)
 }
 
 // Llamar a la función para redimensionar imágenes en una carpeta y subcarpetas
-$folderPath = 'productos';
+$folderPath = 'ruta_de_la_carpeta_de_imagenes';
 $newWidth = 100; // Nuevo ancho deseado
 $newHeight = 100; // Nuevo alto deseado
 resizeImagesInFolder($folderPath, $newWidth, $newHeight);
